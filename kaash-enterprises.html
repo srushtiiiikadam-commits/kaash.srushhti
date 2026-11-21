@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kaash Enterprises | Srushhti Earthline – Chef Uniforms, Thane</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f8f3ea;--bg2:#efe7d8;--card:#fffdf8;--ink:#15130f;--mute:#5d574b;--gold:#9a7b2f;--red:#c8281e;--teal:#0f5f6e;--dark:#111;--line:#d9ceb8;--ff:'Cormorant Garamond',Georgia,serif;--fb:'Inter',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0d0b;--bg2:#161512;--card:#1b1a16;--ink:#f3ead7;--mute:#b3aa96;--gold:#d8bc72;--line:#3a362c;--dark:#080807;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0d0b;--bg2:#161512;--card:#1b1a16;--ink:#f3ead7;--mute:#b3aa96;--gold:#d8bc72;--line:#3a362c;--dark:#080807;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--fb);overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--dark);z-index:60}
+h1,h2,h3{font-family:var(--ff);line-height:1.1;margin:0}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:84px 0}
+.eyebrow{letter-spacing:.3em;text-transform:uppercase;font-size:12px;color:var(--gold);font-weight:600}
+.title{font-size:clamp(34px,5vw,52px);margin:10px 0 14px;font-weight:700}
+.sub{color:var(--mute);max-width:620px}
+.center{text-align:center}.center .sub{margin:0 auto}
+.btn{display:inline-block;padding:13px 26px;border-radius:2px;font-weight:600;font-size:15px;border:1px solid transparent;cursor:pointer;font-family:var(--fb);transition:.25s}
+.btn.red{background:var(--red);color:#fff}.btn.red:hover{background:#a81f16;transform:translateY(-2px)}
+.btn.ghost{border-color:#f3ead7;color:#f3ead7}.btn.ghost:hover{background:#f3ead7;color:#111}
+.btn.line{border-color:var(--ink);color:var(--ink)}.btn.line:hover{background:var(--ink);color:var(--bg)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--dark);color:#f3ead7;border-bottom:1px solid #2b281f}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.brand{font-family:var(--ff);font-size:22px;letter-spacing:.18em;font-weight:700;line-height:1}
+.brand small{display:block;font-size:10px;letter-spacing:.35em;color:#d8bc72;font-family:var(--fb);margin-top:4px;font-weight:500}
+.links{display:flex;gap:28px;align-items:center;font-size:14px}
+.links a:not(.btn){opacity:.85;padding:4px 0;border-bottom:2px solid transparent}
+.links a:not(.btn):hover,.links a.on{opacity:1;border-color:var(--red)}
+.links .btn{padding:9px 18px}
+.duo{display:flex;align-items:center;gap:14px}.duo .sep{width:1px;height:30px;background:#d8bc72}.duo span{font-size:19px}@media(max-width:480px){.duo{gap:9px}.duo span{font-size:14px}.duo small{letter-spacing:.2em}}.burger{display:none;background:none;border:0;color:#f3ead7;font-size:28px;cursor:pointer}
+.theme{background:none;border:1px solid #4a4536;color:#f3ead7;border-radius:50%;width:34px;height:34px;cursor:pointer}
+@media(max-width:860px){.burger{display:block}.links{position:absolute;top:70px;left:0;right:0;background:var(--dark);flex-direction:column;padding:20px;gap:18px;display:none;border-bottom:1px solid #2b281f}.links.open{display:flex}}
+.hero{position:relative;color:#f3ead7;background:#111;overflow:hidden;padding:110px 0 120px}
+.plaid{position:absolute;inset:0;opacity:.55;background:
+repeating-linear-gradient(90deg,rgba(200,40,30,.75) 0 38px,transparent 38px 150px),
+repeating-linear-gradient(0deg,rgba(15,95,110,.7) 0 30px,transparent 30px 130px),
+repeating-linear-gradient(90deg,rgba(243,234,215,.35) 0 8px,transparent 8px 150px),
+repeating-linear-gradient(0deg,rgba(243,234,215,.3) 0 6px,transparent 6px 130px);transform:skewY(-4deg) scale(1.2)}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,#0b0a08 38%,rgba(11,10,8,.55))}
+.hero .wrap{position:relative;z-index:2}
+.hero h1{font-size:clamp(44px,8vw,92px);font-weight:700;max-width:760px;margin:14px 0 18px}
+.hero h1 em{color:#d8bc72;font-style:italic}
+.hero p{max-width:540px;color:#d6cdb9;font-size:18px}
+.tag{display:inline-block;background:var(--red);color:#fff;padding:4px 12px;font-size:13px;margin:18px 0 26px;font-weight:600}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.btnrow{margin-top:32px}
+.grid{display:grid;gap:24px;margin-top:46px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:960px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.g2,.g3,.g4{grid-template-columns:1fr}section{padding:62px 0}}
+.card{background:var(--card);border:1px solid var(--line);padding:30px 26px;transition:.3s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(0,0,0,.18);border-color:var(--gold)}
+.card::before{content:"";position:absolute;left:0;top:0;height:3px;width:0;background:var(--red);transition:.4s}.card:hover::before{width:100%}
+.card h3{font-size:25px;margin:12px 0 8px}.card p{margin:0;color:var(--mute);font-size:15px}
+.ic{font-size:30px}
+.alt{background:var(--bg2)}
+.div2 .card{padding:40px 32px}
+.div2 .card h3{font-size:34px;letter-spacing:.06em}
+.hex{display:flex;gap:16px;align-items:flex-start}
+.hex .n{font-family:var(--ff);font-size:40px;color:var(--red);line-height:1}
+.steps{counter-reset:s}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:30px 0 0}
+.tab{padding:9px 20px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;font:500 14px var(--fb);border-radius:30px;transition:.2s}
+.tab.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.work{background:var(--dark);color:#f3ead7}
+.work .card{background:#1a1813;border-color:#34301f;color:#f3ead7}.work .card p{color:#b3aa96}
+.swatch{height:90px;margin:-30px -26px 18px;background-size:cover}
+.s1{background:repeating-linear-gradient(90deg,#c8281e 0 20px,#f3ead7 20px 26px,#0f5f6e 26px 52px,#111 52px 70px)}
+.s2{background:linear-gradient(135deg,#1f3a5f,#2d5486)}
+.s3{background:repeating-linear-gradient(45deg,#6b6b6b 0 10px,#8a8a8a 10px 20px)}
+.s4{background:linear-gradient(135deg,#7a1f2b,#c05a4a)}
+.s5{background:linear-gradient(135deg,#1c5a3a,#3a8b5f)}
+.s6{background:repeating-linear-gradient(90deg,#d8bc72 0 14px,#111 14px 28px)}
+.contact{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;margin-top:44px}
+@media(max-width:860px){.contact{grid-template-columns:1fr}}
+.info p{margin:0 0 20px}.info b{display:block;font-family:var(--ff);font-size:22px}
+.info a{color:var(--gold);word-break:break-word}
+form,.formbox{background:var(--card);border:1px solid var(--line);padding:30px}
+label{display:block;font-size:13px;font-weight:600;margin:14px 0 6px}
+input,select,textarea{width:100%;padding:12px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:15px var(--fb);border-radius:2px}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:1px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:520px){.two{grid-template-columns:1fr}}
+.err{color:var(--red);font-size:13px;margin-top:10px}
+.faq{max-width:760px;margin:40px auto 0}
+.q{border-bottom:1px solid var(--line)}
+.q button{width:100%;text-align:left;background:none;border:0;color:var(--ink);padding:20px 0;font:600 17px var(--fb);cursor:pointer;display:flex;justify-content:space-between;gap:16px}
+.q .a{max-height:0;overflow:hidden;transition:max-height .35s;color:var(--mute)}
+.q.open .a{max-height:200px;padding-bottom:18px}
+.q .pl{color:var(--red);font-size:22px;transition:.3s}.q.open .pl{transform:rotate(45deg)}
+footer{background:var(--dark);color:#d6cdb9;padding:56px 0 24px;font-size:14px}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1.4fr;gap:34px}
+@media(max-width:760px){.fgrid{grid-template-columns:1fr}}
+footer h4{font-family:var(--ff);font-size:20px;color:#f3ead7;margin:0 0 12px;letter-spacing:.08em}
+footer a{display:block;margin-bottom:8px;opacity:.85}footer a:hover{opacity:1;color:#d8bc72}
+.fb{border-top:1px solid #2b281f;margin-top:34px;padding-top:20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.top{background:#2b281f;border:0;color:#f3ead7;width:38px;height:38px;border-radius:50%;cursor:pointer}
+.rv{opacity:0;transform:translateY(28px);transition:.7s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+.wa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:40;background:#1fa855;color:#fff;border-radius:30px;padding:12px 18px;font-weight:600;font-size:14px;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+</style>
+</head>
+<body>
+<div id="react-root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.4.21/vue.global.prod.min.js"></script>
+<script>
+(function(){
+var h=React.createElement,S=React.useState,E=React.useEffect;
+var PH1='+919220636721',PH2='+919371890018',M1='kaashenterprises2711@gmail.com',M2='srushhtiearthline@gmail.com';
+
+/* ---------- React: layout, hero, sections ---------- */
+function Reveal(p){var r=React.useRef(null),s=S(false);
+ E(function(){var o=new IntersectionObserver(function(e){if(e[0].isIntersecting){s[1](true);o.disconnect()}},{threshold:.12});o.observe(r.current);return function(){o.disconnect()}},[]);
+ return h('div',{ref:r,className:'rv'+(s[0]?' in':'')+(p.className?' '+p.className:'')},p.children)}
+
+function Head(){var o=S(false),a=S('home'),t=S(false);
+ E(function(){var ids=['home','about','services','products','contact'];
+  function f(){var y=window.scrollY+120,c='home';ids.forEach(function(i){var e=document.getElementById(i);if(e&&e.offsetTop<=y)c=i});a[1](c)}
+  window.addEventListener('scroll',f);f();return function(){window.removeEventListener('scroll',f)}},[]);
+ function tog(){var n=!t[0];t[1](n);document.documentElement.setAttribute('data-theme',n?'dark':'light')}
+ var L=[['home','Home'],['about','About'],['services','Services'],['contact','Contact']];
+ return h('header',null,h('div',{className:'wrap nav'},
+  h('a',{href:'#home',className:'brand duo'},h('span',null,'KAASH',h('small',null,'ENTERPRISES')),h('i',{className:'sep'}),h('span',null,'SRUSHHTI',h('small',null,'EARTHLINE'))),
+  h('button',{className:'burger','aria-label':'Menu',onClick:function(){o[1](!o[0])}},o[0]?'×':'☰'),
+  h('nav',{className:'links'+(o[0]?' open':'')},
+   L.map(function(l){return h('a',{key:l[0],href:'#'+l[0],className:a[0]===l[0]?'on':'',onClick:function(){o[1](false)}},l[1])}),
+   h('button',{className:'theme','aria-label':'Toggle theme',onClick:tog},'◐'),
+   h('a',{href:'#quote',className:'btn red',onClick:function(){o[1](false)}},'Get a Quote'))))}
+
+function Hero(){return h('section',{id:'home',className:'hero'},h('div',{className:'plaid'}),
+ h('div',{className:'wrap'},
+  h('div',{className:'eyebrow'},'Thane · Maharashtra'),
+  h('h1',null,'Uniforms with ',h('em',null,'character.')),
+  h('span',{className:'tag'},'We design · We print · We embroider · We manufacture'),
+  h('p',null,'Kaash Enterprises and Srushhti Earthline design and manufacture chef coats, cook shirts, vests, pants, aprons and kitchen accessories, plus uniforms for hotels, hospitals, schools, corporates and industry.'),
+  h('div',{className:'cta btnrow'},h('a',{href:'#quote',className:'btn red'},'Get a Quote'),h('a',{href:'#services',className:'btn ghost'},'Explore Our Services'))))}
+
+function About(){return h('section',{id:'about'},h('div',{className:'wrap'},
+ h(Reveal,{className:'center'},h('div',{className:'eyebrow'},'About Us'),h('h2',{className:'title'},'Two names. One standard.'),
+  h('p',{className:'sub'},'We are specialists in designer uniforms. Both companies offer the complete range of our work, and each order is handled personally from fabric selection to final dispatch.')),
+ h('div',{className:'grid g2 div2'},
+  [['Kaash Enterprises','Chef uniforms, kitchen wear and institutional uniforms, designed, printed, embroidered and manufactured to order.'],['Srushhti Earthline','Chef uniforms, kitchen wear and institutional uniforms, designed, printed, embroidered and manufactured to order.']].map(function(d){
+   return h(Reveal,{key:d[0]},h('div',{className:'card'},h('div',{className:'eyebrow'},'Our Company'),h('h3',null,d[0]),h('p',null,d[1])))}))))}
+
+var SV=[['✏️','We Design','Original and custom chef-wear patterns, with fabric and colour matched to your kitchen or brand.'],['🖨️','We Print & Embroider','Logos, names and designations applied cleanly on coats, shirts, aprons and caps.'],['🏭','We Manufacture','Bulk production of up to 18,000 pieces a month, in sizes XS to 4XL.'],['🏫','Institutional Uniforms','School, college, corporate, hospital, hotel, factory, lab, sports and security uniforms.']];
+function Services(){return h('section',{id:'services',className:'alt'},h('div',{className:'wrap'},
+ h(Reveal,{className:'center'},h('div',{className:'eyebrow'},'What we do'),h('h2',{className:'title'},'Our Services'),h('p',{className:'sub'},'Straightforward ways to get your team uniformed.')),
+ h('div',{className:'grid g4'},SV.map(function(s){return h(Reveal,{key:s[1]},h('div',{className:'card'},h('div',{className:'ic'},s[0]),h('h3',null,s[1]),h('p',null,s[2])))}))))}
+
+var PR=[['All','',''],['Chef Coats','Chef Coats (C10–C81)','s2','Double-breasted, side-closure and designer coats in white, black and colours. Twill 65/35 polycotton, XS–4XL.'],['Cook Shirts','Cook Shirts (S05–S18, U80–U81)','s1','Short-sleeve cook shirts with contrast collars, V-necks and snap closures.'],['Vests','Vests (V4–V7)','s4','Men’s and ladies’ black and burgundy vests for service staff.'],['Pants','Chef Pants (CP6–CP8, P40–P54)','s3','Elastic-waist, houndstooth, pinstripe, cargo and formal trousers.'],['Hats','Hats & Accessories (H.1–H.8)','s6','Chef hats, beanies, skull caps and neckerchiefs, including kids’ sizes.'],['Aprons','Aprons (A.2–A.26)','s5','Bib, bistro, waist and long aprons in cotton, denim, canvas and leather.'],['Knife Rolls','Chef Knife Rolls (A28–A30)','s2','Leather and PV matty knife rolls for carrying your tools.']];
+function Products(){var f=S('All');
+ var items=PR.slice(1).filter(function(p){return f[0]==='All'||p[0]===f[0]});
+ return h('section',{id:'products',className:'work'},h('div',{className:'wrap'},
+  
+  h('div',{className:'tabs'},PR.map(function(p){return h('button',{key:p[0],className:'tab'+(f[0]===p[0]?' on':''),onClick:function(){f[1](p[0])}},p[0])})),
+  h('div',{className:'grid g3'},items.map(function(p){return h('div',{key:p[0],className:'card'},h('div',{className:'swatch '+p[2]}),h('h3',null,p[1]),h('p',null,p[3]))}))))}
+
+var ED=[['Premium Quality & Finish','Durable fabrics and careful tailoring for comfort and a polished look.'],['Customised Solutions','Designs aligned to your brand identity and operational needs.'],['Cost-Effective Pricing','Competitive pricing that never compromises on material or craftsmanship.'],['Bulk Production Capacity','Up to 18,000 pieces per month, delivered within agreed timelines.'],['Seamless Experience','A simple process from first enquiry to final delivery.'],['Dedicated Support','Responsive help after delivery for long-term partnerships.']];
+function Edge(){return h('section',null,h('div',{className:'wrap'},
+ h(Reveal,{className:'center'},h('div',{className:'eyebrow'},'Why choose us'),h('h2',{className:'title'},'Our Competitive Edge')),
+ h('div',{className:'grid g3'},ED.map(function(e,i){return h(Reveal,{key:e[0]},h('div',{className:'card hex'},h('div',{className:'n'},'0'+(i+1)),h('div',null,h('h3',{style:{marginTop:0}},e[0]),h('p',null,e[1]))))}))))}
+
+var ST=[['Enquire','Share your requirement via form, call or WhatsApp.'],['Design & Sample','We finalise fabric, colour and fit.'],['Production','Stitching and quality checks in bulk.'],['Delivery','Packed and dispatched on schedule.']];
+function Process(){return h('section',{className:'alt'},h('div',{className:'wrap'},
+ h(Reveal,{className:'center'},h('div',{className:'eyebrow'},'How it works'),h('h2',{className:'title'},'From enquiry to delivery')),
+ h('div',{className:'grid g4'},ST.map(function(s,i){return h(Reveal,{key:s[0]},h('div',{className:'card'},h('div',{className:'hex'},h('span',{className:'n'},i+1)),h('h3',null,s[0]),h('p',null,s[1])))}))))}
+
+function Contact(){return h('section',{id:'contact'},h('div',{className:'wrap'},
+ h('div',{className:'center'},h('div',{className:'eyebrow'},'Contact'),h('h2',{className:'title'},'Let’s talk uniforms')),
+ h('div',{className:'contact'},
+  h('div',{className:'info'},
+   h('p',null,h('b',null,'Office'),'Office no 306, Janki Nivas CHS,',h('br'),'Dr. Mosse Road, Thane West 400602'),
+   h('p',null,h('b',null,'Phone'),h('a',{href:'tel:'+PH1},'+91 92206 36721'),' / ',h('a',{href:'tel:'+PH2},'+91 93718 90018')),
+   h('p',null,h('b',null,'Email'),h('a',{href:'mailto:'+M1},M1),h('br'),h('a',{href:'mailto:'+M2},M2)),
+   h('a',{className:'btn line',target:'_blank',rel:'noopener',href:'https://www.google.com/maps/search/?api=1&query=Janki+Nivas+CHS+Dr+Mosse+Road+Thane+West'},'View on Map')),
+  h('div',{id:'vue-quote'}))))}
+
+function Foot(){return h('footer',null,h('div',{className:'wrap'},
+ h('div',{className:'fgrid'},
+  h('div',null,h('div',{className:'brand'},'KAASH',h('small',null,'ENTERPRISES')),h('div',{className:'brand',style:{marginTop:14}},'SRUSHHTI',h('small',null,'EARTHLINE')),h('p',null,'Chef uniforms and institutional wear, made with care in Thane.')),
+  h('div',null,h('h4',null,'Quick Links'),['Home','About','Services','Contact'].map(function(l){return h('a',{key:l,href:'#'+l.toLowerCase()},l)})),
+  h('div',null,h('h4',null,'Get in touch'),h('p',null,'Office no 306, Janki Nivas CHS, Dr. Mosse Road, Thane West 400602'),h('a',{href:'tel:'+PH1},'+91 92206 36721'),h('a',{href:'tel:'+PH2},'+91 93718 90018'),h('a',{href:'mailto:'+M1},M1),h('a',{href:'mailto:'+M2},M2))),
+ h('div',{className:'fb'},h('span',null,'© 2026 Kaash Enterprises · Srushhti Earthline. All rights reserved.'),h('button',{className:'top','aria-label':'Back to top',onClick:function(){window.scrollTo({top:0,behavior:'smooth'})}},'↑'))))}
+
+function App(){return h(React.Fragment,null,h(Head),h('main',null,h(Hero),h(About),h(Services),h(Edge),h(Process),h('section',{id:'faq-wrap',className:'alt'},h('div',{className:'wrap'},h('div',{className:'center'},h('div',{className:'eyebrow'},'FAQ'),h('h2',{className:'title'},'Common questions')),h('div',{id:'vue-faq'}))),h(Contact)),h(Foot),
+ h('a',{className:'wa',target:'_blank',rel:'noopener',href:'https://wa.me/919220636721'},'💬 WhatsApp'))}
+
+ReactDOM.createRoot(document.getElementById('react-root')).render(h(App));
+
+/* ---------- Vue: FAQ accordion + quote form ---------- */
+function mount(){
+ var f=document.getElementById('vue-faq'),q=document.getElementById('vue-quote');
+ if(!f||!q){return setTimeout(mount,50)}
+ Vue.createApp({data:function(){return{open:0,items:[
+  {q:'Do you take bulk orders?',a:'Yes. Share your quantity, sizes and specifications and we will respond with a quote.'},
+  {q:'Can you match our company colours and logo?',a:'We tailor fabric, colour and branding to your requirement, with samples before bulk production.'},
+  {q:'Which industries do you serve?',a:'Hotels, restaurants and catering, hospitals, schools and colleges, corporates, factories, sports, labs, security and pharmaceutical companies.'},
+  {q:'What sizes and colours are available?',a:'Most styles come in XS to 4XL, in different colours, in twill 65/35 polycotton.'},{q:'How do I place an enquiry?',a:'Use the quote form below, call us, or message us on WhatsApp.'}]}},
+  template:'<div class="faq"><div v-for="(i,n) in items" :key="n" class="q" :class="{open:open===n}"><button @click="open=open===n?-1:n"><span>{{i.q}}</span><span class="pl">+</span></button><div class="a">{{i.a}}</div></div></div>'}).mount(f);
+ Vue.createApp({data:function(){return{n:'',p:'',t:'Chef Coats',qty:'',m:'',err:'',dbOk:false,sent:false}},
+  mounted:function(){var s=this;if(window.claude&&claude.use)claude.use('db').then(function(d){s.dbOk=!!d}).catch(function(){})},
+  computed:{text:function(){return 'Hello, I would like a quote.\nName: '+this.n+'\nPhone: '+this.p+'\nProduct: '+this.t+'\nQuantity: '+this.qty+'\nDetails: '+this.m}},
+  methods:{save:function(){if(!this.ok())return;var s=this;Promise.all([claude.use('db'),claude.use('user')]).then(function(r){var d=r[0];return r[1].id().then(function(id){var ref=d.doc('enquiries/'+id);return ref.get().then(function(sn){var o=((sn.data()||{}).items)||[];o=o.concat([{name:s.n.trim(),phone:s.p.trim(),product:s.t,qty:s.qty,msg:s.m,at:Date.now()}]);return ref.set({items:o})})})}).then(function(){s.sent=true;s.n=s.p=s.qty=s.m=''}).catch(function(){s.err='Could not send. Please use WhatsApp or Email instead.'})},ok:function(){if(!this.n.trim()||this.p.replace(/\D/g,'').length<10){this.err='Please enter your name and a valid 10-digit phone number.';return false}this.err='';return true},
+   wa:function(){if(this.ok())window.open('https://wa.me/919220636721?text='+encodeURIComponent(this.text),'_blank')},
+   mail:function(){if(this.ok())window.location.href='mailto:'+'kaashenterprises2711@gmail.com'+'?subject='+encodeURIComponent('Quote request – '+this.t)+'&body='+encodeURIComponent(this.text)}},
+  template:'<div class="formbox" id="quote"><h3 style="font-size:28px">Get a Quote</h3><div class="two"><div><label>Name</label><input v-model="n" autocomplete="name"></div><div><label>Phone</label><input v-model="p" type="tel" autocomplete="tel"></div></div><div class="two"><div><label>Product</label><select v-model="t"><option>Chef Coats</option><option>Cook Shirts</option><option>Vests</option><option>Chef Pants</option><option>Hats &amp; Accessories</option><option>Aprons</option><option>Knife Rolls</option><option>Other</option></select></div><div><label>Approx. quantity</label><input v-model="qty" inputmode="numeric"></div></div><label>Details</label><textarea rows="4" v-model="m"></textarea><div v-if="sent" style="color:var(--gold);margin-top:10px">Thank you, we have received your enquiry and will call you soon.</div><div v-if="err" class="err">{{err}}</div><div class="cta" style="margin-top:20px"><button v-if="dbOk" class="btn red" @click="save">Send Enquiry</button><button class="btn red" @click="wa">Send on WhatsApp</button><button class="btn line" @click="mail">Send by Email</button></div></div>'}).mount(q);
+}
+mount();
+if(window.claude&&claude.use)Promise.all([claude.use('user'),claude.use('db')]).then(function(r){var u=r[0],d=r[1];if(!u||!d)return;return u.canEdit().then(function(ok){if(!ok)return;
+var b=document.createElement('button');b.className='btn red';b.textContent='Enquiries';b.style.cssText='position:fixed;left:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:45';
+var p=document.createElement('div');p.style.cssText='display:none;position:fixed;top:8%;left:4%;right:4%;max-width:720px;margin:0 auto;max-height:80%;overflow:auto;z-index:70;background:var(--card);border:1px solid var(--gold);padding:20px;box-shadow:0 20px 60px rgba(0,0,0,.5)';
+document.body.append(b,p);b.onclick=function(){p.style.display=p.style.display==='none'?'block':'none'};
+d.collection('enquiries').onSnapshot(function(s){p.textContent='';var all=[];s.docs.forEach(function(x){((x.data()||{}).items||[]).forEach(function(i){all.push(i)})});all.sort(function(a,b){return b.at-a.at});var h3=document.createElement('h3');h3.textContent='Enquiries ('+all.length+')';p.append(h3);
+all.forEach(function(e){var c=document.createElement('div');c.style.cssText='border-top:1px solid var(--line);padding:12px 0;font-size:14px;';
+var t=document.createElement('div');t.style.fontWeight='600';t.textContent=e.name+' \u00b7 '+e.phone+' \u00b7 '+e.product+(e.qty?' \u00b7 qty '+e.qty:'')+' \u00b7 '+new Date(e.at).toLocaleString();
+var m=document.createElement('div');m.style.color='var(--mute)';m.textContent=e.msg||'';
+c.append(t,m);p.append(c)})})})}).catch(function(){});
+})();
+</script>
+</body>
+</html>
